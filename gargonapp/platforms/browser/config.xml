@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="go.julio.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="BarcodeScanner">
+        <param name="browser-package" value="BarcodeScanner" />
+    </feature>
     <name>Garçonete Só de Cenoura</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -7,4 +10,8 @@
     <author email="juliorenan@live.com" href="http://cordova.io">
         Julio Pinheiro
     </author>
+    <access origin="http://cozinhapp.sergiolopes.org" />
+    <plataform name="android">
+        <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    </plataform>
 </widget>

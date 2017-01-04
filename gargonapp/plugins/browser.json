@@ -12,6 +12,12 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "go.julio.garconapp"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "go.julio.garconapp"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "go.julio.garconapp"
         }
     },
     "dependent_plugins": {}

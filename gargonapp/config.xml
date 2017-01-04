@@ -7,6 +7,8 @@
     <author email="juliorenan@live.com" href="http://cordova.io">
         Julio Pinheiro
     </author>
+    <access origin ="http://cozinhapp.sergiolopes.org" />
+
  <plataform name="android">
     <preference name="StatusBarBackgroundColor" value="#E86C13" />
  </plataform>
